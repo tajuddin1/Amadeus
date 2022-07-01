@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Teko', sans-serif;
+}
+
+.main_nav {
+    padding: 30px 20px 0 40px;
+}
+
+.main_nav a {
+    font-size: 27px;
+}
+
+.logo_wrapper {
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav_logo_side,
+.nav_menu_side{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.nav_menu_side ul li a {
+    line-height: 25px;
+    padding: .3rem 1rem;
+}
+body{
+    position: relative;
+    background-image: linear-gradient(#000000ba, #000000a6), url(../images/Photos/DJ_Amadeus_AX_Shoot_1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+.music_bg{
+    background-image: linear-gradient(#00000091, #00000069), url(../images/bg/music_bg.jpg);
+}
+.video_bg{
+    background-image: linear-gradient(#00000091, #00000069), url(../images/bg/dance_bg.jpg);
+}
+.tour_bg{
+    background-image: linear-gradient(#00000091, #00000069), url(../images/bg/show_bg.jpg);
+}
+.contact_bg{
+    background-image: linear-gradient(#00000091, #00000069), url(../images/bg/contact_bg.jpg);
+}
+.footer_social {
+    position: fixed;
+    right: 10px;
+    bottom: 15px;
+}
+.footer_social i{
+    color: #fff;
+}
+/* .home_splash{
+    width: 100vw;
+    height: 100%;
+}
+.home_splash_wrapper{
+    position: absolute;
+    width: 520px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+} */
